@@ -1,0 +1,17 @@
+{
+    "name": "steven/steven_plugin",
+    "description": "my first plugin",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "nkeneng",
+            "email": "nkeneng.junior@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {"Steven\\": "./inc"}
+    }
+}
