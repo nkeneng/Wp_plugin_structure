@@ -6,7 +6,10 @@ class Enqueue
 {
     public function register()
     {
+        //for backend
         add_action('admin_enqueue_scripts', array($this, 'enqueue'));
+        // for frontend
+        //add_action('wp_enqueue_scripts', array($this, 'enqueue'));
     }
 
     function enqueue()
