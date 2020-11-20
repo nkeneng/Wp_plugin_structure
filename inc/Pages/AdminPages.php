@@ -1,6 +1,6 @@
 <?php
 
-namespace Steven\Pages;
+namespace Sten_PluginName\Pages;
 
 class AdminPages
 {
@@ -12,12 +12,12 @@ class AdminPages
 
     public function add_admin_pages()
     {
-        add_menu_page('Steven Plugin', 'steven', 'manage_options', 'steven_plugin',
+        add_menu_page('Sten_PluginName', 'steven', 'manage_options', 'Sten_PluginName',
             array($this, 'admin_index'), 'dashicons-store', 110);
     }
 
     public function admin_index()
     {
-        require_once PLUGIN_PATH . 'Templates/admin.php';
+        require_once Sten_PluginName_PLUGIN_PATH . 'Templates/admin.php';
     }
 }

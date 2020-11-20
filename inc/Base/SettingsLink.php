@@ -1,6 +1,6 @@
 <?php
 
-namespace Steven\Base;
+namespace Sten_PluginName\Base;
 
 class SettingsLink
 {
@@ -8,7 +8,7 @@ class SettingsLink
 
     public function __construct()
     {
-        $this->plugin = PLUGIN;
+        $this->plugin = Sten_PluginName_PLUGIN;
     }
 
     public function register()
@@ -18,7 +18,7 @@ class SettingsLink
 
     public function settings_link($link)
     {
-        $settings_link = '<a href= "admin.php/?page=steven_plugin">Settings</a>';
+        $settings_link = '<a href= "admin.php/?page=Sten_PluginName">Settings</a>';
         array_push($link, $settings_link);
         return $link;
     }

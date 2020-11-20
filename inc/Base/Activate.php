@@ -1,6 +1,6 @@
 <?php
 
-namespace Steven\Base;
+namespace Sten_PluginName\Base;
 class Activate
 {
     public static function activate()

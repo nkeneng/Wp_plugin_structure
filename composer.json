@@ -1,5 +1,5 @@
 {
-    "name": "steven/steven_plugin",
+    "name": "steven/Sten_PluginName",
     "description": "my first plugin",
     "type": "project",
     "license": "GPL",
@@ -12,6 +12,6 @@
     "minimum-stability": "dev",
     "require": {},
     "autoload": {
-        "psr-4": {"Steven\\": "./inc"}
+        "psr-4": {"Sten_PluginName\\": "./inc"}
     }
 }

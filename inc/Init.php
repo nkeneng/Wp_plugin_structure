@@ -1,6 +1,6 @@
 <?php
 
-namespace Steven;
+namespace Sten_PluginName;
 
 final class Init
 {
